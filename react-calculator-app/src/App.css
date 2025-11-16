@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.caluculator-container {
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+/* ボタンのグリッドレイアウト設定 */
+.button-grid {
+  display: grid; /* グリッドレイアウト */
+  grid-template-columns: repeat(4, 60px); /* 列の定義: 4列、各列の幅60px */
+  min-height: 40px; /* ←高さを確保 */
+  padding: 8px; /* ←中身がなくても枠がはっきり見える */
+  gap: 8px; /* グリッド間の隙間 */
+}
+
+button {
+  background-color: lightblue;
+}
